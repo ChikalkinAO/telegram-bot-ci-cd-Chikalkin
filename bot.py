@@ -5,8 +5,6 @@ import asyncio
 from config import BOT_TOKEN
 from db import save_message, get_last_messages
 
-#
-
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
